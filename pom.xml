@@ -49,14 +49,14 @@
             <id>anonymize</id>
             <properties>
                 <execAppName>anonymize</execAppName>
-                <execAppFlag></execAppFlag>
+                <execAppFlag/>
             </properties>
         </profile>
         <profile>
             <id>generate</id>
             <properties>
                 <execAppName>generate</execAppName>
-                <execAppFlag></execAppFlag>
+                <execAppFlag/>
             </properties>
         </profile>
     </profiles>
@@ -152,7 +152,7 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
-                    <check />
+                    <check/>
                 </configuration>
             </plugin>            
         </plugins>
@@ -195,7 +195,7 @@
         <dependency>
             <groupId>commons-configuration</groupId>
             <artifactId>commons-configuration</artifactId>
-            <version>1.7</version>
+            <version>1.8</version>
         </dependency>    
         <dependency>
             <groupId>mysql</groupId>
@@ -215,12 +215,12 @@
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-core</artifactId>
-            <version>1.20</version>
+            <version>1.22</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-parsers</artifactId>
-            <version>1.20</version>
+            <version>1.25</version>
         </dependency>        
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
